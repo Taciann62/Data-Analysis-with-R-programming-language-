@@ -31,7 +31,7 @@
 
 
 # Introduction
-This is a data analytics capstone project is carried out in fulfillment of the requirement of the Google data analytics professional certificate course, Course 8, module 2. 
+This data analytics capstone project is carried out in fulfillment of the requirement of the Google data analytics professional certificate course, Course 8, module 2. 
 
 # Project overview
 Cyclistic is a bike-share company that enables people to rent bikes for their mobility needs and return them at various locations.
