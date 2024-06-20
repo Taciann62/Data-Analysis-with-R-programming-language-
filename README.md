@@ -34,8 +34,9 @@ The Cyclistic bike share marketing needs to understand the following in order to
 The dataset of the previous 12 months (January 2023- December 2023) was accessible and named contained in an index file call divvy trip data index file, from which I downloaded and extracted the datasets as csv file.
 
 ## Tools 
-Rstudio : Data manipulation
-Tableau
+- Rstudio : Data manipulation
+  
+- Tableau
 
 ### Data Preparation and observation
 I worked with most recent annual dataset which was available for use. The dataset was first uploaded to google sheet but after figuring out that some months contained very large amount of datasets, I decided to use the RStudio desktop application. I uploaded the dataset into the global environment in R.
@@ -94,8 +95,6 @@ divvytrips_2023Merged <- bind_rows(January_2023_divvy_dataset,February_2023_divy
 ```
 to merge them into one dataframe. This way I could save time, stay organized and focus better. After merging, I had a total of 57,198,77 obs. and 13 variables.
 
-
-#### 	Data Cleaning and Manipulation
 
 ### Analyze
 The following exploratory analysis was carried out on the dataset to gradually gain insight into Cyclistic bike data for the year 2023:
