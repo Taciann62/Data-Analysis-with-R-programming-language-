@@ -1,5 +1,15 @@
 # Cyclistic-Bike-Share-Data-Analysis
 ---
+## Table Of Content
+- [Introduction](#introduction)
+
+- [Project Overview](#project-overview)
+  
+- [Business Question](business-question)
+
+
+
+
 # Introduction
 This is a data analytics capstone project is carried out in fulfillment of the requirement of the Google data analytics professional certificate course, Course 8, module 2. 
 
@@ -8,7 +18,7 @@ Cyclistic is a bike-share company that enables people to rent bikes for their mo
 Moreno, the finance analyst of the Cyclistic aims to maximize the number of annual members which she believes would impact future growth, by converting casual bike users to Members. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She also notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
 Note: Members are riders with annual subscription, while casual riders use a single-ride or full day passes.
 
-## My role:
+### My role:
 In this project, I assumed the role of a junior data analyst in the marketing team to uncover insights from their data, necessary to influence the company’s objective and offer recommendations and optimize work process. 
 Business objective:
 Design an effective marketing strategy targeted at converting causal riders to annual members.
@@ -131,7 +141,8 @@ average_ridelength_user <- divvytrips_2023 %>%
    |  Member       |  28.25396 mins  |
    |  Casual       |  12.52779 mins  |
    
-   
+   ![Average Trip Duration by Usertype](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/2ba82bd4-5f90-4490-8152-ab0768f2ad87)
+
    
 #### Average trip duration by user type by day of the week: 
 ```{r}
@@ -139,6 +150,8 @@ average_ridelength_DOW <- divvytrips_2023 %>%
   group_by(day_of_the_week, member_casual) %>% 
   summarise(avg_ridelength= mean(tripduration))
 ```
+![Average Trip Duration By DOW - Copy (2)](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/9d412946-f902-4337-a9bd-ed10abc61284)
+
 
  
 #### Total rides by day of the week: 
@@ -157,12 +170,15 @@ total_rideby_user <- divvytrips_2023 %>%
   summarise(total_ride = n(),.groups = 'drop') %>% 
   as.data.frame()
 ```
+![Total Rides By User](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/abd9f7c4-3b15-4812-b1ed-e08a3a9358f4)
 
 
 #### Percentage of bike usage: Cyclistic bike share company provides her users with three rideable bike options, namely: Docked bike, Electric bike, Classic bike.
 ```{r}
 table(divvytrips_2023$rideable_type)/length(divvytrips_2023$rideable_type)*100
 ```
+![Most Preferred Bike (1)](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/4bb4f498-e352-48b0-8d95-498c004e60dc)
+
 
 
 
@@ -176,6 +192,7 @@ In the year 2023, Cyclistic bike had more riders on Saturdays and less on Monday
   summarise(total_ride = n(),.groups = 'drop') %>% 
   as.data.frame()
 ```
+![Busiest Days By Ride Count](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/285a1da7-9495-4419-8bd8-6f4955d8fd18)
 
 
 #### Busiest Months of the year by ride count: 
@@ -186,7 +203,8 @@ total_ride_length_month<- divvytrips_2023 %>%
   summarise(total_ride = n(),.groups = 'drop') %>% 
   as.data.frame()
 ```
- 
+ ![Total Rides Per Month](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/b982f089-c02b-41ac-9a32-7de344741b37)
+
 
 
 ## Findings
@@ -195,8 +213,11 @@ The insights derived from the Cyclistic bike data are summarized thus:
 
 1.	Casual riders trust Cyclistic bike for long trips and so makes up to 69.28% of the total average trip duration with Annual members taking up 30.72%.
 2.	Annual members covered 64% of the total bike rides in the year 2023, compared to Casual riders.
-3.	Saturday and the summer season have the highest number of bike rides, which is possibly influenced by the weekend spree and the summer holidays respectively.
-4.	Annual member has a relatively similar ride length and so do not use Cyclistic bikes for longer durations as would Casual riders.
+![Percentage of Users (1)](https://github.com/Taciann62/Cyclistic-Bike-Share-Data-Analysis/assets/132772773/e2490813-f0ec-4e7e-b412-e65e453afe9a)
+
+
+4.	Saturday and the summer season have the highest number of bike rides, which is possibly influenced by the weekend spree and the summer holidays respectively.
+5.	Annual member has a relatively similar ride length and so do not use Cyclistic bikes for longer durations as would Casual riders.
 
 ## Recommendations
 
