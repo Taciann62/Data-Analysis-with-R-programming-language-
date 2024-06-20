@@ -35,7 +35,10 @@ This is a data analytics capstone project is carried out in fulfillment of the r
 
 # Project overview
 Cyclistic is a bike-share company that enables people to rent bikes for their mobility needs and return them at various locations.
-Moreno, the finance analyst of the Cyclistic aims to maximize the number of annual members which she believes would impact future growth, by converting casual bike users to Members. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She also notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+Moreno, the finance analyst of the Cyclistic aims to maximize the number of annual members which she believes would impact future growth, by converting casual bike users to Members. 
+
+Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members. She also notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+
 Note: Members are riders with annual subscription, while casual riders use a single-ride or full day passes.
 
 ### My role:
@@ -243,12 +246,17 @@ The insights derived from the Cyclistic bike data are summarized thus:
 
 ## Recommendations
 
-1.	Annual members are typically stable users of Cyclistic bikes, as they use the bike for their basic mobility needs, and make up a higher percentage of the total bike usage compared to Casual riders. Casual riders are seasonal riders who make use of Cyclistic bike for recreational activities, tours among others.
+1.	Annual members are typically stable users of Cyclistic bikes, as they use the bike for their basic mobility needs, and make up a higher percentage of the total bike usage compared to Casual riders.
+Casual riders are seasonal riders who make use of Cyclistic bike for recreational activities, tours among others.
+
 However, based on the average trip duration of both user types, Casual riders make up the longest average trip durations for the year with around 70% of the total average ride length.
 
-2.	In order to effectively convert casual riders to annual members, Cyclistic should strategically target their digital adverts on weekends, especially on Saturdays. And also, during the Summer season where there is a noticeable increase in bike usage by causal riders. The rise in bike usage by casual riders during this season can be attributed to the summer holidays. 
+2.  In order to effectively convert casual riders to annual members, Cyclistic should strategically target their digital adverts on weekends, especially on Saturdays.
+And also, during the Summer season where there is a noticeable increase in bike usage by causal riders. The rise in bike usage by casual riders during this season can be attributed to the summer holidays. 
 
-3.	To make the digital advert yield successful conversion of casual riders and the general public, I recommend that Cyclistic offers new subscribers discounts on their subscription plans as a summer holiday bonus. This bonus should last for a period of time within the holiday season to attract a large number of new subscribers and convert casual riders. After which, they can curate adverts for Saturdays to make their normal subscription plans known to both casual riders and the public at large.
+3.  To make the digital advert yield successful conversion of casual riders and the general public, I recommend that Cyclistic offers new subscribers discounts on their subscription plans as a summer holiday bonus.
+This bonus should last for a period of time within the holiday season to attract a large number of new subscribers and convert casual riders.
+After which, they can curate adverts for Saturdays to make their normal subscription plans known to both casual riders and the public at large.
 
 
 ## Thank You!
