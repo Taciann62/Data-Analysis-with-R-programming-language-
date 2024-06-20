@@ -57,9 +57,9 @@ The Cyclistic bike share marketing needs to understand the following in order to
 The dataset of the previous 12 months (January 2023- December 2023) was accessible and named contained in an index file call divvy trip data index file, from which I downloaded and extracted the datasets as csv file.
 
 ## Tools 
-- Rstudio : Data manipulation
+- Rstudio : Data Cleaning, manipulation and visualization
   
-- Tableau
+- Tableau: [Cyclistic Bikes Share Visualization Dashboard](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CyclisticBikeTripVisualization2023/Dashboard1)
 
 ## Prepare
 ### Data Preparation and Observation
