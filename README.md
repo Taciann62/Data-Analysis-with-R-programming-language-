@@ -17,7 +17,7 @@
   
 - [Process](process)
   
-   -[Data Cleaning and Manipulation](data-cleaning-and-manipulation)
+   - [Data Cleaning and Manipulation](data-cleaning-and-manipulation)
 
 - [Analyze](analyze)
 
