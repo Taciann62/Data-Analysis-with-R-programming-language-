@@ -7,7 +7,27 @@
   
 - [Business Question](business-question)
 
+- [Data Source](data-source)
 
+- [Tools](tools)
+
+- [Prepare](prepare)
+
+   - [Data preparation and Observation](data-preparation-and-observation)
+  
+- [Process](process)
+  
+   -[Data Cleaning and Manipulation](data-cleaning-and-manipulation)
+
+- [Analyze](analyze)
+
+   - [Exploratory Data Analysis](exploratory-data-analysis)
+
+- [Further Analysis With Charts](further-analysis-with-charts)
+
+- [Findings](findings)
+
+- [Recommendations](recommendations)
 
 
 # Introduction
@@ -30,7 +50,7 @@ The Cyclistic bike share marketing needs to understand the following in order to
 3.	How can Cyclistic use digital media to influence casual riders to become members?
 
 
-## Data Source:
+## Data Source
 The dataset of the previous 12 months (January 2023- December 2023) was accessible and named contained in an index file call divvy trip data index file, from which I downloaded and extracted the datasets as csv file.
 
 ## Tools 
@@ -38,7 +58,8 @@ The dataset of the previous 12 months (January 2023- December 2023) was accessib
   
 - Tableau
 
-### Data Preparation and observation
+## Prepare
+### Data Preparation and Observation
 I worked with most recent annual dataset which was available for use. The dataset was first uploaded to google sheet but after figuring out that some months contained very large amount of datasets, I decided to use the RStudio desktop application. I uploaded the dataset into the global environment in R.
 
 In order to have access to the full functionalities of R, I installed the necessary packages for my analysis and loaded them.
@@ -85,7 +106,7 @@ Note that columns with the label: start_station_name and end_station_name were h
 
 
 ## Process
-### Data cleaning
+### Data cleaning and manipulation
 
 ####	Merge dataset: 
 After loading the dataset for 2023 into my R studio global environment, I observed the consistency in the column names and arrangement before proceeding to write a code chunk:
@@ -97,6 +118,8 @@ to merge them into one dataframe. This way I could save time, stay organized and
 
 
 ### Analyze
+
+#### Exploratory Data Analysis
 The following exploratory analysis was carried out on the dataset to gradually gain insight into Cyclistic bike data for the year 2023:
 
 #### Total number of rides: The total number of rides = 57,186,08 rides
@@ -181,7 +204,7 @@ table(divvytrips_2023$rideable_type)/length(divvytrips_2023$rideable_type)*100
 
 
 
-### Further analysis with charts
+### Further Analysis With Charts
 
 #### Busiest days of the week:
 In the year 2023, Cyclistic bike had more riders on Saturdays and less on Mondays and Sundays.
