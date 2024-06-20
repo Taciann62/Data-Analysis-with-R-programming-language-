@@ -59,7 +59,7 @@ The dataset of the previous 12 months (January 2023- December 2023) was accessib
 ## Tools 
 - Rstudio : Data Cleaning, manipulation and visualization
   
-- Tableau: [Cyclistic Bikes Share Visualization Dashboard](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CyclisticBikeTripVisualization2023/Dashboard1)
+- Tableau: [Cyclistic Bikes Share Visualization Interactive Dashboard](https://public.tableau.com/app/profile/ogochukwu.ezeogu/viz/CyclisticBikeTripVisualization2023/Dashboard1)
 
 ## Prepare
 ### Data Preparation and Observation
