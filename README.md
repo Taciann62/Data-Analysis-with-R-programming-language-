@@ -120,6 +120,35 @@ divvytrips_2023Merged <- bind_rows(January_2023_divvy_dataset,February_2023_divy
 to merge them into one dataframe. This way I could save time, stay organized and focus better. After merging, I had a total of 57,198,77 obs. and 13 variables.
 
 
+#### Data Cleaning and Manipulation
+
+After successfully merging the datasets, I created four new columns to the merged dataframe:
+- trip_duration(in minutes)
+  
+-  time_in_hours
+
+- month
+  
+-  day_of_week
+  
+After which I used the clean_names() to make the title of the variables consistent,
+~~~[r]
+clean_names(divvytrips_2023Merged)
+~~~
+
+I went over the business task and the dataset I was working with, to ensure that I was in line with goal and my dataset, comprehensive.
+
+Then, I proceeded to delete rows with “null” values in the trip duration column, and rows where trip_duration equals 0sec. I ran the code chunk
+
+~~~[r]
+divvytrips_2023 <- divvytrips_2023Merged[!(divvytrips_2023Merged$tripduration <= 0),]
+~~~
+
+This cleaning process reduced my dataset to 5718608 obs. and 17 columns and also created a new dataframe, divvytrips_2023, which I used through out my analysis.
+
+With these processes completed, my datasets was ready for analysis.
+
+
 ### Analyze
 
 #### Exploratory Data Analysis
