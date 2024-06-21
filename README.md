@@ -54,7 +54,7 @@ The Cyclistic bike share marketing needs to understand the following in order to
 
 
 ## Data Source
-The dataset of the previous 12 months (January 2023- December 2023) was accessible and named contained in an index file call divvy trip data index file, from which I downloaded and extracted the datasets as csv file.
+The dataset of the previous 12 months (January 2023- December 2023) was accessible and contained in an index file call divvy trip data index file, from which I downloaded and extracted the datasets as csv file.
 
 ## Tools 
 - Rstudio : Data Cleaning, manipulation and visualization
