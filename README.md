@@ -120,7 +120,7 @@ divvytrips_2023Merged <- bind_rows(January_2023_divvy_dataset,February_2023_divy
 to merge them into one dataframe. This way I could save time, stay organized and focus better. After merging, I had a total of 57,198,77 obs. and 13 variables.
 
 
-#### Data Cleaning and Manipulation
+- Data Cleaning and Manipulation
 
 After successfully merging the datasets, I created four new columns to the merged dataframe:
 - trip_duration(in minutes)
