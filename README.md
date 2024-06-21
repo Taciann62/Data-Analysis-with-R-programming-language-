@@ -271,7 +271,8 @@ The insights derived from the Cyclistic bike data are summarized thus:
 
 
 4.	Saturday and the summer season have the highest number of bike rides, which is possibly influenced by the weekend spree and the summer holidays respectively.
-5.	Annual member has a relatively similar ride length and so do not use Cyclistic bikes for longer durations as would Casual riders.
+   
+5. Annual member has a relatively similar ride length and so do not use Cyclistic bikes for longer durations as would Casual riders.
 
 ## Recommendations
 
@@ -281,10 +282,13 @@ Casual riders are seasonal riders who make use of Cyclistic bike for recreationa
 However, based on the average trip duration of both user types, Casual riders make up the longest average trip durations for the year with around 70% of the total average ride length.
 
 2.  In order to effectively convert casual riders to annual members, Cyclistic should strategically target their digital adverts on weekends, especially on Saturdays.
+   
 And also, during the Summer season where there is a noticeable increase in bike usage by causal riders. The rise in bike usage by casual riders during this season can be attributed to the summer holidays. 
 
-3.  To make the digital advert yield successful conversion of casual riders and the general public, I recommend that Cyclistic offers new subscribers discounts on their subscription plans as a summer holiday bonus.
+3. To make the digital advert yield successful conversion of casual riders and the general public, I recommend that Cyclistic offers new subscribers discounts on their subscription plans as a summer holiday bonus.
+   
 This bonus should last for a period of time within the holiday season to attract a large number of new subscribers and convert casual riders.
+
 After which, they can curate adverts for Saturdays to make their normal subscription plans known to both casual riders and the public at large.
 
 
