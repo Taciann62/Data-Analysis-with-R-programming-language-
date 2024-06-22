@@ -42,8 +42,9 @@ Rather than creating a marketing campaign that targets all-new customers, Moreno
 Note: Members are riders with annual subscription, while casual riders use a single-ride or full day passes.
 
 ### My role:
-In this project, I assumed the role of a junior data analyst in the marketing team to uncover insights from their data, necessary to influence the company’s objective and offer recommendations and optimize work process. 
-Business objective:
+In this project, I assumed the role of a junior data analyst in the marketing team to uncover insights from their data, necessary to influence the company’s objective and offer recommendations and optimize work process.
+
+## Business objective:
 Design an effective marketing strategy targeted at converting causal riders to annual members.
 
 ## Business Question:
